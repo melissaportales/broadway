@@ -36,7 +36,11 @@ div.header {
   background-image: url("../images/the-flatiron-building.png");
 }
 
-div.nav {
+a {
+  color: white;
+}
+
+nav.top {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
@@ -54,7 +58,7 @@ div.info {
 div.footer {
   font-family: Helvetica;
   font-size: 11px;
+  text-align: left;
   color: white;
   background-color: dimgray;
-  text-align: left;
 }
