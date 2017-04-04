@@ -1,22 +1,21 @@
-body {
+html, body {
   text-align: center;
+  font-family: Helvetica;
 }
 
 h1 {
-font-family: Helvetica;
+
 font-size: 70px;
 font-weight: bold;
 color: white;
 }
 
 h2 {
-  font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
 }
 
 h3 {
-  font-family: Helvetica;
   font-size: 23px;
   font-weight: bold;
 }
@@ -24,28 +23,39 @@ h3 {
 h3.white {
   color: white;
   background-image: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
 }
 
 p {
-  font-family: Helvetica;
   font-size: 14px;
 }
 
 div.header {
   height: 290px;
   background-image: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
 }
 
-a {
-  color: white;
-  font-family: Helvetica;
-  font-size: 18px;
+a:visited, a:hover, a:active  {
+  text-decoration: none;
   color: white;
 }
-ul {
+
+a:link {
+    text-decoration: underline;
+}
+
+a.contact {
+  text-decoration: none;
+  color: black;
+}
+
+ul.nav {
+  color: white;
+  font-size: 18px;
   list-style-type: none;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 li.top {
@@ -57,13 +67,11 @@ li.bottom {
 }
 
 div.info {
-  font-family: Helvetica;
   font-size: 23px;
   font-weight: bold;
 }
 
 div.footer {
-  font-family: Helvetica;
   font-size: 11px;
   text-align: left;
   color: white;
