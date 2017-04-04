@@ -42,6 +42,19 @@ a {
   font-size: 18px;
   color: white;
 }
+ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.top {
+  display: block;
+}
+
+li.bottom {
+    display: inline;
+}
 
 div.info {
   font-family: Helvetica;
