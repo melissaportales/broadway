@@ -42,6 +42,7 @@ a, a:visited, a:hover, a:active  {
 
 a:link {
   text-decoration: underline;
+  color: white;
 }
 
 a.contact {
