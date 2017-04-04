@@ -41,7 +41,7 @@ a:visited, a:hover, a:active  {
 }
 
 a:link {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 a.contact {
@@ -49,7 +49,8 @@ a.contact {
   color: black;
 }
 
-ul.nav {
+li.top {
+  display: block;
   color: white;
   font-size: 18px;
   list-style-type: none;
@@ -57,12 +58,13 @@ ul.nav {
   padding: 0;
 }
 
-li.top {
-  display: block;
-}
-
 li.bottom {
     display: inline;
+    color: white;
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 div.info {
